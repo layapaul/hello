@@ -1,0 +1,35 @@
+# Nombre de la Librería
+
+Descripción corta de lo que hace tu librería.
+
+## Instalación
+
+Para instalar esta librería, es necesario tener Composer instalado. Si no tienes Composer instalado en tu sistema, puedes descargarlo desde [getcomposer.org](https://getcomposer.org/).
+
+Luego, para instalar la librería, utiliza el siguiente comando de Composer:
+
+composer require layapaul/hello
+
+## Uso
+
+Una vez que la librería esté instalada, puedes utilizarla en tu proyecto importando la clase correspondiente en tu archivo de código. Por ejemplo:
+
+```php
+use hello\Hello;
+
+require_once 'vendor/autoload.php';
+
+
+$libreria = new Hello();
+$libreria->saluda();
+
+Contribución
+Si deseas contribuir a este proyecto, por favor realiza un fork del repositorio y crea un pull request con tus cambios. Asegúrate de incluir pruebas para cualquier nueva funcionalidad que agregues.
+
+Licencia
+Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para obtener más información
+Recuerda que este es sólo un ejemplo básico, y que puedes agregar más secciones y detalles según sea necesario para tu librería específica. ¡Espero que esto te haya sido útil!
+
+
+
+
