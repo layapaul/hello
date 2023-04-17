@@ -1,0 +1,19 @@
+{
+    "name": "layapaul/hello",
+    "description": "Ejemplo de librería",
+    "type": "library",
+    "keywords": ["ejemplo", "librería","hello"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Paul",
+            "email": "paul.laya@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "hello\\": "src/"
+        }
+    }
+}
