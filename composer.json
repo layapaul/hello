@@ -10,7 +10,9 @@
             "email": "paul.laya@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "layapaul/hello": "1.0.0"
+    },
     "autoload": {
         "psr-4": {
             "hello\\": "src/"
